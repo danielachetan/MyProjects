@@ -1,0 +1,86 @@
+<mvc:View
+        controllerName="org.ubb.books.controller.BookList"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:core="sap.ui.core"
+        xmlns="sap.m">
+
+    <Text text="Search by first name:"/>
+    <SearchField width="50%" search=".onFirstNameFilter" id="firstNameSearchField"/>
+
+    <Text text="Search by last name:"/>
+    <SearchField width="50%" search=".onLastNameFilter" id="lastNameSearchField" />
+
+    <Text text="Search by title:"/>
+    <SearchField width="50%" search=".onTitleFilter" id="titleSearchField" />
+
+    <Text text="Search by author:"/>
+    <SearchField width="50%" search=".onAuthorFilter" id="authorSearchField" />
+    <!--
+    <Button text="{i18n>sortButton}" id="sortButton" press=".onSort">
+        <layoutData>
+            <FlexItemData growFactor="1"/>
+        </layoutData>
+    </Button>
+    -->
+    <Table id="idBooksTable"
+           items="{
+			path: '/CoutBooks',
+			sorter: {
+				path: 'FirstName'
+			}
+		}"
+           growing="true"
+           growingThreshold="10">
+
+
+        <columns>
+            <Column>
+                <Text text="First name"/>
+            </Column>
+            <Column>
+                <Text text="Last name"/>
+            </Column>
+            <Column>
+                <Text text="Username"/>
+            </Column>
+            <Column>
+                <Text text="Checkout date"/>
+            </Column>
+            <Column>
+                <Text text="Return date"/>
+            </Column>
+            <Column>
+                <Text text="ISBN"/>
+            </Column>
+            <Column>
+                <Text text="Title"/>
+            </Column>
+            <Column>
+                <Text text="Author"/>
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem>
+                <cells>
+                    <Text text="{FirstName}"/>
+                    <Text text="{LastName}"/>
+                    <Text text="{Username}"/>
+                    <Text text="{
+							path: 'CheckoutDate',
+							type: 'sap.ui.model.type.Date'
+               			}"
+                    />
+                    <Text text="{
+							path: 'ReturnDate',
+							type: 'sap.ui.model.type.Date'
+               			}"
+                    />
+                    <Text text="{Isbn}"/>
+                    <Text text="{Title}"/>
+                    <Text text="{Author}"/>
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+
+</mvc:View>

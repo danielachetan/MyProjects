@@ -1,0 +1,27 @@
+.typeClass{
+    font-family: Arial, serif;
+    font-style: oblique;
+    background: aqua;
+    font-size: 8px;
+}
+
+.titelClass {
+    text-decoration: underline ;
+}
+
+.authorClass {
+    text-decoration: overline;
+}
+
+.publisherClass {
+    background: crimson;
+}
+
+.priceClass {
+    font-family: Arial, serif;
+    background: yellow;
+}
+
+.publishingYearClass {
+    background: aqua;
+}

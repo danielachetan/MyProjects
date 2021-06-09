@@ -1,0 +1,16 @@
+.box {
+	border: 2px solid grey;
+	border-radius: 20px;
+	font-size: 30px;
+	padding: 10px;
+	margin: 20px;
+	background-image: url("https://odeaclan.org/wp-content/uploads/2017/02/hints-and-tips.jpg"),linear-gradient(to bottom right, grey 15%, transparent 40%);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-color: #a8adad;
+	padding-left: 180px;
+	background-size: 12%, 7%;
+	background-position: left;
+	box-shadow: 5px 10px 20px #a6adac;
+	/*background: linear-gradient(145deg, #656968, 15%, #a8adad);*/
+}

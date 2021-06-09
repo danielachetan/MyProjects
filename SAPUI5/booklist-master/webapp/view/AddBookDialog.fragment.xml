@@ -1,0 +1,45 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form">
+    <Dialog id="addBookDialog" title="{i18n>dialogTitle}">
+        <beginButton>
+            <Button text="{i18n>dialogCloseButtonText}" press=".onCloseDialog"/>
+        </beginButton>
+        <f:SimpleForm id="addBookForm" editable="true" layout="ResponsiveGridLayout">
+            <f:content>
+                <Label text="{i18n>bookIsbn}" required="false"/>
+                <Input name="ISBN" id="isbn" valueLiveUpdate="true" enabled="true" visible="true" required="true"/>
+                <Label text="{i18n>bookTitle}" required="false"/>
+                <Input name="Title" id="title" valueLiveUpdate="true" enabled="true" visible="true" required="false"/>
+                <Label text="{i18n>bookAuthor}" required="false"/>
+                <Input name="Author" id="author" valueLiveUpdate="true" enabled="true" visible="true" required="false"/>
+                <Label text="{i18n>bookPublishingDate}" required="false"/>
+                <DatePicker id="publishingDate" displayFormat="short"/>
+                <Label text="{i18n>bookLanguage}" required="false"/>
+                <Select name="Language" id="language" enabled="true">
+                    <core:Item key="en" text="EN"/>
+                    <core:Item key="de" text="DE"/>
+                    <core:Item key="ro" text="RO"/>
+                </Select>
+                <Label text="{i18n>bookAvailableBooks}" required="false"/>
+                <Input name="Available books" id="availableBooks" valueLiveUpdate="true" enabled="true" visible="true"
+                       required="false"/>
+                <HBox>
+                    <Button text="{i18n>addButton}" id="addBook" type="Accept" press=".onSaveBook">
+                        <layoutData>
+                            <FlexItemData growFactor="1"/>
+                        </layoutData>
+                    </Button>
+                    <Button text="{i18n>updateButton}" id="updateBook">
+                        <layoutData>
+                            <FlexItemData growFactor="1"/>
+                        </layoutData>
+                    </Button>
+                    <Button text="{i18n>deleteButton}" id="deleteBook" type="Reject" padding="20">
+                        <layoutData>
+                            <FlexItemData growFactor="1"/>
+                        </layoutData>
+                    </Button>
+                </HBox>
+            </f:content>
+        </f:SimpleForm>
+    </Dialog>
+</core:FragmentDefinition>

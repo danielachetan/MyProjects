@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Lab7</title>
+		<script src="https://code.jquery.com/jquery-git.js"></script>
+	</head>
+	<body>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id urna vitae   
+			ligula consectetur interdum. Integer porttitor erat ullamcorper risus posuere  
+			blandit. Curabitur eget sem odio. Morbi pulvinar, enim vel lacinia pharetra,   
+			neque mi tristique nibh, non dapibus erat elit scelerisque nisi. Proin  
+			consectetur orci massa, hendrerit tristique diam semper eget. Vestibulum  
+			eleifend elit ornare varius feugiat. Fusce molestie erat sed volutpat ultricies.
+			Duis lobortis ante id cursus venenatis. Nunc odio nisi, congue nec mi ultricies, 
+			rutrum viverra est. Curabitur et odio quis magna ullamcorper vehicula. Sed augue 
+			ante, lacinia nec iaculis ut, rutrum vel urna. In feugiat ipsum ac justo auctor, 
+			vitae ultrices sapien euismod. Morbi suscipit justo nec nibh vehicula, at  
+			interdum dolor malesuada. Pellentesque rutrum dapibus eros, nec pellentesque 
+			odio dictum vel. Orci varius natoque penatibus et magnis dis parturient montes, 
+			nascetur ridiculus mus. Duis ut dui sed metus feugiat rhoncus. 
+		</p>
+		<script>
+			$(function() {
+				$("p").css({
+					'padding':'10px',
+					'font-size':'30px'
+				});
+			
+				var words = $("p").text().split(" ");
+				$.each(words, function(index, value) {
+					if (value.substr(value.length - 1) == '.' ||
+					value.substr(value.length - 1) == ',') {
+						var aux = value.substr(0, value.length - 1);
+						var last = value.substr(value.length - 1);
+						words[index] = words[index].replace(value, "<span class=" + aux + ">" 
+						+ aux + "</span>" + last + " ");
+					}
+					else {
+						words[index] = words[index].replace(value, "<span class=" + value + 
+						">" + value + "</span> ");
+					}
+				});
+				$("p").html(words);
+				$("span").on('dblclick', function() {
+					$("body").find(".previous").css('background-color','white');
+					var getClass = "." + $(this).attr("class");
+					$(getClass).css('background-color','yellow');
+					$(getClass).addClass("previous");
+				});
+			});
+		</script>
+	</body>
+</html>

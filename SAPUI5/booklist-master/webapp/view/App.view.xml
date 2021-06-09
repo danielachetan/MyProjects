@@ -1,0 +1,60 @@
+<mvc:View
+	controllerName="org.ubb.books.controller.App"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:f="sap.ui.layout.form"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true">
+	<Shell>
+		<App>
+			<pages>
+				<Page title="{i18n>homePageTitle}">
+					<content>
+						<f:SimpleForm id="addBookForm" editable="true" layout="ResponsiveGridLayout">
+							<f:content>
+								<Label text="{i18n>bookIsbn}" required="false"/>
+								<Input name="ISBN" id="isbn" valueLiveUpdate="true" enabled="true" visible="true" required="true"/>
+								<Label text="{i18n>bookTitle}" required="false"/>
+								<Input name="Title" id="title" valueLiveUpdate="true" enabled="true" visible="true" required="false"/>
+								<Label text="{i18n>bookAuthor}" required="false"/>
+								<Input name="Author" id="author" valueLiveUpdate="true" enabled="true" visible="true" required="false"/>
+								<Label text="{i18n>bookPublishingDate}" required="false"/>
+								<DatePicker id="publishingDate" displayFormat="short"/>
+								<Label text="{i18n>bookLanguage}" required="false"/>
+								<Input name="Language" id="language" valueLiveUpdate="true" enabled="true" visible="true" required="false"/>
+								<Label text="{i18n>bookAvailableBooks}" required="false"/>
+								<Input name="Available books" id="availableBooks" valueLiveUpdate="true" enabled="true" visible="true"
+									   required="false"/>
+								<HBox>
+									<Button text="{i18n>addButton}" id="addBook" type="Accept" press=".onSaveBook">
+										<layoutData>
+											<FlexItemData growFactor="1"/>
+										</layoutData>
+									</Button>
+									<Button text="{i18n>updateButton}" id="updateBook" press=".onUpdateBook">
+										<layoutData>
+											<FlexItemData growFactor="1"/>
+										</layoutData>
+									</Button>
+									<Button text="{i18n>deleteButton}" id="deleteBook" type="Reject" press=".onDeleteBook">
+										<layoutData>
+											<FlexItemData growFactor="1"/>
+										</layoutData>
+									</Button>
+								</HBox>
+							</f:content>
+						</f:SimpleForm>
+						<Button
+								id="addBookButton"
+								icon="sap-icon://accounting-document-verification"
+								press=".onOpenDialog"
+								class="sapUiSmallMarginEnd"
+							/>
+						<mvc:XMLView viewName="org.ubb.books.view.BookList"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

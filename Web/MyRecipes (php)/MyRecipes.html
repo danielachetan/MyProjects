@@ -1,0 +1,28 @@
+<?include Style.css?>
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>MyRecipes</title>
+		<script src="FilterRecipes.js"></script>
+		<link rel="stylesheet" href="Style.css">
+	</head>
+	<body onpageshow="filterRecipes('')">
+		<h1 id='mainTitle'>MyRecipes</h1>
+		<br>
+		<form action="AddRecipe.php" method="post">
+			<input type="submit" value="Add" class="button">
+			<br>
+			<select id="filter" name='filter' onchange="filterRecipes(this.value)">
+				<option value="">All</option>
+				<option value="Healthy">Healthy</option>
+				<option value="Vegan">Vegan</option>
+				<option value="Dairy-free">Dairy-free</option>
+			</select>
+			<br>
+		</form>
+		<br><br>
+		<hr>
+		<div id='text'>Hello world!</div>
+	</body>
+</html>

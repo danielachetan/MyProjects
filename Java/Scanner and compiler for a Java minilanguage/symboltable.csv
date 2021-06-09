@@ -1,0 +1,59 @@
+Main, class, --, 5, public, global
+init, method, void, 8, public, Main
+s1, variable, Student, 10, --, Main.init
+"Paula", literal, String, 10, --, global
+"Carter", literal, String, 10, --, global
+731, literal, int, 10, --, global
+s2, variable, Student, 13, --, Main.init
+"Douglas", literal, String, 13, --, global
+"Anderson", literal, String, 13, --, global
+731, literal, int, 13, --, global
+s3, variable, Student, 16, --, Main.init
+"Ryan", literal, String, 16, --, global
+"Brooks", literal, String, 16, --, global
+731, literal, int, 16, --, global
+s4, variable, Student, 19, --, Main.init
+"Kathy", literal, String, 19, --, global
+"Johnson", literal, String, 19, --, global
+732, literal, int, 19, --, global
+s5, variable, Student, 22, --, Main.init
+"Rebecca", literal, String, 22, --, global
+"Reed", literal, String, 22, --, global
+732, literal, int, 22, --, global
+s6, variable, Student, 25, --, Main.init
+"Arthur", literal, String, 25, --, global
+"Martin", literal, String, 25, --, global
+732, literal, int, 25, --, global
+getFinalGrade, method, double, 30, public, Main
+student, parameter, Student, 30, --, Main.getFinalGrade
+sum, variable, int, 31, --, Main.getFinalGrade
+0, literal, int, 31, --, global
+i, variable, int, 33, --, Main.getFinalGrade
+0, literal, int, 33, --, global
+6, literal, int, 33, --, global
+avg, variable, double, 35, --, Main.getFinalGrade
+6, literal, int, 35, --, global
+getStudents, method, List<Student>, 39, public, Main
+group, parameter, int, 39, --, Main.getStudents
+grade, parameter, double, 39, --, Main.getStudents
+result, variable, List<Student>, 40, --, Main.getStudents
+i, variable, int, 42, --, Main.getStudents
+0, literal, int, 42, --, global
+printStudents, method, void, 49, public, Main
+studentList, parameter, List<Student>, 49, --, Main.printStudents
+i, variable, int, 51, --, Main.printStudents
+0, literal, int, 51, --, global
+1, literal, int, 54, --, global
+"First name: ", literal, String, 55, --, global
+"Last name: ", literal, String, 56, --, global
+"Group: ", literal, String, 57, --, global
+finalGrade, variable, double, 58, --, Main.printStudents
+"Final grade: ", literal, String, 59, --, global
+main, method, void, 64, public, Main
+args, parameter, String[], 64, --, Main.main
+scanner, variable, Scanner, 66, --, Main.main
+group, variable, int, 67, --, Main.main
+"Enter a group number: ", literal, String, 68, --, global
+grade, variable, double, 70, --, Main.main
+"Enter a grade: ", literal, String, 71, --, global
+passed, variable, List<Student>, 73, --, Main.main

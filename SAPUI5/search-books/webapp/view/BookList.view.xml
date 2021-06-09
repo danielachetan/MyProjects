@@ -1,0 +1,72 @@
+<mvc:View
+		controllerName="org.ubb.books.controller.BookList"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:f="sap.ui.layout.form"
+        xmlns:core="sap.ui.core"
+        xmlns="sap.m">
+    <f:SimpleForm id="bookForm" editable="true" layout="ResponsiveGridLayout">
+        <f:content>
+            <Label text="{i18n>bookIsbn}" required="false"/>
+            <Input name="ISBN" id="isbn" valueLiveUpdate="true" enabled="true" visible="true" required="true"/>
+            <Label text="{i18n>bookTitle}" required="false"/>
+            <Input name="Title" id="title" valueLiveUpdate="true" enabled="true" visible="true" required="false"/>
+            <Label text="{i18n>bookAuthor}" required="false"/>
+            <Input name="Author" id="author" valueLiveUpdate="true" enabled="true" visible="true" required="false"/>
+            <Label text="{i18n>bookPublishingDate}" required="false"/>
+            <DatePicker id="publishingDate" displayFormat="short"/>
+            <Label text="{i18n>bookLanguage}" required="false"/>
+            <Input name="Language" id="language" valueLiveUpdate="true" enabled="true" visible="true" required="false"/>
+            <Button text="{i18n>searchButton}" id="searchButton" press=".onFilter">
+                <layoutData>
+                    <FlexItemData growFactor="1"/>
+                </layoutData>
+            </Button>
+        </f:content>
+    </f:SimpleForm>
+    <Table id="idBooksTable"
+           items="{
+			path: '/Books',
+			sorter: {
+				path: 'Title'
+			}
+		}"
+           growing="true"
+           growingThreshold="10">
+
+        <columns>
+            <Column>
+                <Text text="Title"/>
+            </Column>
+            <Column>
+                <Text text="Author"/>
+            </Column>
+            <Column>
+                <Text text="Published on"/>
+            </Column>
+            <Column>
+                <Text text="Language"/>
+            </Column>
+            <Column>
+                <Text text="Available books"/>
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem>
+                <cells>
+                    <ObjectIdentifier
+                            title="{Title}"
+                            text="{Isbn}"/>
+                    <Text text="{Author}"/>
+                    <Text text="{
+							path: 'PublishingDate',
+							type: 'sap.ui.model.type.Date'
+               			}"
+                    />
+                    <Text text="{Language}"/>
+                    <Text text="{= parseInt(${AvailableBooks}) }"/>
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+
+</mvc:View>

@@ -1,0 +1,98 @@
+body {
+	background-image: url("https://previews.123rf.com/images/seamartini/seamartini1609/seamartini160900076/62637934-cooking-products-and-kitchen-utensils-seamless-background-wallpaper-with-vector-pattern-icons-of-pep.jpg");
+}
+
+.buttons {
+	display: flex;
+}
+
+.recipeInformation {
+	background-color: #f53520;
+	padding: 25px;
+}
+
+.author {
+	font-family: Verdana;
+	font-size: 25px;
+}
+
+.name {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.type {
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+.ingredientsBlock {
+	background-color: #b9c2c7;
+	margin: 0px 20px;
+	padding: 10px;
+	opacity: 0.9;
+}
+
+.photoIngredientsLayout {
+	display: flex;
+	font-size: 20px;
+	font-family: Verdana;
+}
+
+.ingredientsTitle {
+	font-weight: bold;
+}
+
+.recipe {
+	background-color: #45e6f5;
+	font-size: 20px;
+	font-family: Verdana;
+	padding: 15px;
+	opacity: 0.9;
+}
+
+.button {
+	margin: 10px;
+	font-size: 20px;
+	border: 2px solid #fcbe03;
+	font-family: Verdana;
+	padding: 10px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	background-color: white;
+}
+
+.button:hover {
+	background-color: #fcbe03;
+	color: white;
+}
+
+#filter {
+	display: block;
+	font-size: 20px;
+	margin: 10px;
+	font-family: Verdana;
+	border: 2px solid #fcbe03;
+	padding: 10px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	background-color: white;
+}
+
+#filter:hover {
+	background-color: #fcbe03;
+	color: white;
+}
+
+#mainTitle {
+	margin: 10px;
+	font-size: 100px;
+	color: green;
+	background-color: white;
+	padding: 5px;
+	font-family: Georgia;
+	text-decoration: underline;
+	display: flex;
+	margin-right: 650px;
+}

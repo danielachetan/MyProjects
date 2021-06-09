@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lab5.xsl"?>
+
+<!-- 7~~~List by using XSLT all bibliography entries
+(articles, books, reports, presentations, web link, software package) described in an XML
+document. Each bibliography entry has to have all required sub-elements (author names,title,
+editor, number of pages, publication year, and so on).
+The list has to be ordered alphabetically by authors. You should also write a CSS file with
+at least 6 classes which will be used for displaying the bibliography entries.-->
+
+<entries>
+    <entry>
+        <type class="typeClass">Book</type>
+        <title class="titelClass">Web Programming</title>
+        <author class="authorClass">Chrisbates</author>
+        <publisher class="publisherClass">Wiley</publisher>
+        <publishingYear class="publishingYearClass">2011</publishingYear>
+        <price class="priceClass">300</price>
+        <page_nr class="page_nr"> 300</page_nr>
+    </entry>
+    <entry>
+        <type class="typeClass">Artikel</type>
+        <title class="titelClass">Internet world-wide-web</title>
+        <author class="authorClass">Ditel</author>
+        <publisher  class="publisherClass">Ditel</publisher>
+        <publishingYear  class="publishingYearClass" >2018</publishingYear>
+        <price class="priceClass">0</price>
+        <page_nr class="page_nr"> 10</page_nr>
+    </entry>
+    <entry>
+        <type class="typeClass">Book Report</type>
+        <title class="titelClass">Computer Networks</title>
+        <author class="authorClass">Foruouzan</author>
+        <publisher  class="publisherClass">Mc Graw Hill</publisher>
+        <publishingYear  class="publishingYearClass">2005</publishingYear>
+        <price class="priceClass">0</price>
+        <page_nr class="page_nr"> 15</page_nr>
+    </entry>
+    <entry>
+        <type class="typeClass">Presentation</type>
+        <title class="titelClass">DBMS Concepts</title>
+        <author class="authorClass">Navath</author>
+        <publisher  class="publisherClass">-: -</publisher>
+        <publishingYear  class="publishingYearClass">2002</publishingYear>
+        <price class="priceClass">3</price>
+        <page_nr class="page_nr"> 30</page_nr>
+    </entry>
+    <entry>
+        <type class="typeClass">Book</type>
+        <title class="titelClass">Linux Programming</title>
+        <author class="authorClass">Subhitab Das</author>
+        <publisher  class="publisherClass">Oxford</publisher>
+        <publishingYear  class="publishingYearClass">1998</publishingYear>
+        <price class="priceClass">300</price>
+        <page_nr class="page_nr"> 150</page_nr>
+    </entry>
+    <entry>
+        <type class="typeClass">Web Link</type>
+        <title class="titelClass">Linux Programming</title>
+        <author class="authorClass">Subhitab Das</author>
+        <publisher  class="publisherClass">Oxford</publisher>
+        <publishingYear  class="publishingYearClass">1998</publishingYear>
+        <price class="priceClass">300</price>
+        <page_nr class="page_nr"> 0</page_nr>
+    </entry>
+    <entry>
+        <type class="typeClass">Software Package</type>
+        <title class="titelClass">Linux Programming</title>
+        <author class="authorClass">Subhitab Das</author>
+        <publisher  class="publisherClass">Oxford</publisher>
+        <publishingYear  class="publishingYearClass">2019</publishingYear>
+        <price class="priceClass">300</price>
+        <page_nr class="page_nr"> 0</page_nr>
+    </entry>
+</entries>

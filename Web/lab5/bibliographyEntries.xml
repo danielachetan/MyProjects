@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="cssRules.css"?>
+<entries>
+    <entry>
+        <type class="typeClass">Book</type>
+        <title class="titelClass">Web Programming</title>
+        <author class="authorClass">Chrisbates</author>
+        <publisher class="publisherClass">Wiley</publisher>
+        <publishingYear class="publishingYearClass">2011</publishingYear>
+        <price class="priceClass">300</price>
+    </entry>
+    <entry>
+        <type class="typeClass">Artikel</type>
+        <title class="titelClass">Internet world-wide-web</title>
+        <author class="authorClass">Ditel</author>
+        <publisher  class="publisherClass">Ditel</publisher>
+        <publishingYear  class="publishingYearClass" >2018</publishingYear>
+        <price class="priceClass">0</price>
+    </entry>
+    <entry>
+        <type class="typeClass">Book Report</type>
+        <title class="titelClass">Computer Networks</title>
+        <author class="authorClass">Foruouzan</author>
+        <publisher  class="publisherClass">Mc Graw Hill</publisher>
+        <publishingYear  class="publishingYearClass">2005</publishingYear>
+        <price class="priceClass">0</price>
+    </entry>
+    <entry>
+        <type class="typeClass">Presentation</type>
+        <title class="titelClass">DBMS Concepts</title>
+        <author class="authorClass">Navath</author>
+        <publisher  class="publisherClass">-: -</publisher>
+        <publishingYear  class="publishingYearClass">2002</publishingYear>
+        <price class="priceClass">3</price>
+    </entry>
+    <entry>
+        <type class="typeClass">Book</type>
+        <title class="titelClass">Linux Programming</title>
+        <author class="authorClass">Subhitab Das</author>
+        <publisher  class="publisherClass">Oxford</publisher>
+        <publishingYear  class="publishingYearClass">1998</publishingYear>
+        <price class="priceClass">300</price>
+    </entry>
+</entries>

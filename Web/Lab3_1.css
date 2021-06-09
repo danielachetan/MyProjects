@@ -1,0 +1,22 @@
+#list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border: 1px solid black;
+	overflow: hidden;
+	margin-right: 450px;
+}
+
+.pair {
+	padding: 12px;
+	background-color: cyan;
+	margin: 10px;
+	margin-right: 200px;
+	float: left;
+	display: inline;
+}
+
+.text {
+	text-align: center;
+	font-family: Arial, Sans-senf;
+}

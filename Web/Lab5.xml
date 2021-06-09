@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Lab5_1.xsl" ?>
+<movies>
+	<movie>
+		<title>The Other Lamb</title>
+		<actors>
+			<actor>
+				<name>Michiel Huisman</name>
+			</actor>
+			<actor>
+				<name>Raffey Cassidy</name>
+			</actor>
+			<actor>
+				<name>Denise Gough</name>
+			</actor>
+			<actor>
+				<name>Eve Connolly</name>
+			</actor>
+		</actors>
+		<genre>Drama</genre>
+		<date-of-playing>
+			<day>3</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>97 min</duration>
+	</movie>
+	<movie>
+		<title>Twelve</title>
+		<actors>
+			<actor>
+				<name>Milan Ray</name>
+			</actor>
+			<actor>
+				<name>Teyonah Parris</name>
+			</actor>
+			<actor>
+				<name>Jahi Di'Allo Winston</name>
+			</actor>
+			<actor>
+				<name>William Catlett</name>
+			</actor>
+		</actors>
+		<genre>Drama</genre>
+		<date-of-playing>
+			<day>10</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>125 min</duration>
+	</movie>
+	<movie>
+		<title>Why Don't You Just Die</title>
+		<actors>
+			<actor>
+				<name>Alexandr Kuznetsov</name>
+			</actor>
+			<actor>
+				<name>Vitaliy Khaev</name>
+			</actor>
+			<actor>
+				<name>Evgeniya Kregzhde</name>
+			</actor>
+			<actor>
+				<name>Michael Gor</name>
+			</actor>
+		</actors>
+		<genre>Comedy</genre>
+		<date-of-playing>
+			<day>10</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>99 min</duration>
+	</movie>
+	<movie>
+		<title>Cut Throat City</title>
+		<actors>
+			<actor>
+				<name>Eiza Gonzalez</name>
+			</actor>
+			<actor>
+				<name>Ethan Hawke</name>
+			</actor>
+			<actor>
+				<name>Kat Graham</name>
+			</actor>
+			<actor>
+				<name>Wesley Snipes</name>
+			</actor>
+		</actors>
+		<genre>Action</genre>
+		<date-of-playing>
+			<day>10</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>132 min</duration>
+	</movie>
+	<movie>
+		<title>Nomad: In the Footsteps of Bruce Chatwin</title>
+		<actors>
+			<actor>
+				<name>Werner Herzog</name>
+			</actor>
+			<actor>
+				<name>Bruce Chatwin</name>
+			</actor>
+			<actor>
+				<name>Karin Eberhard</name>
+			</actor>
+			<actor>
+				<name>Nicholas Shakespeare</name>
+			</actor>
+		</actors>
+		<genre>Documentary</genre>
+		<date-of-playing>
+			<day>10</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>85 min</duration>
+	</movie>
+	<movie>
+		<title>My Spy</title>
+		<actors>
+			<actor>
+				<name>Dave Bautista</name>
+			</actor>
+			<actor>
+				<name>Chloe Coleman</name>
+			</actor>
+			<actor>
+				<name>Parisa Fitz-Henley</name>
+			</actor>
+			<actor>
+				<name>Kristen Schaal</name>
+			</actor>
+		</actors>
+		<genre>Action</genre>
+		<date-of-playing>
+			<day>17</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>99 min</duration>
+	</movie>
+	<movie>
+		<title>Promising Young Woman</title>
+		<actors>
+			<actor>
+				<name>Carey Mulligan</name>
+			</actor>
+			<actor>
+				<name>Bo Burnham</name>
+			</actor>
+			<actor>
+				<name>Laverne Cox</name>
+			</actor>
+			<actor>
+				<name>Clancy Brown</name>
+			</actor>
+		</actors>
+		<genre>Crime</genre>
+		<date-of-playing>
+			<day>17</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>113 min</duration>
+	</movie>
+	<movie>
+		<title>The Secret: Dare to Dream</title>
+		<actors>
+			<actor>
+				<name>Katie Holmes</name>
+			</actor>
+			<actor>
+				<name>Josh Lucas</name>
+			</actor>
+			<actor>
+				<name>Jerry O'Connell</name>
+			</actor>
+			<actor>
+				<name>Celia Weston</name>
+			</actor>
+		</actors>
+		<genre>Drama</genre>
+		<date-of-playing>
+			<day>17</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>107 min</duration>
+	</movie>
+	<movie>
+		<title>Sometimes Always Never</title>
+		<actors>
+			<actor>
+				<name>Bill Nighy</name>
+			</actor>
+			<actor>
+				<name>Sam Riley</name>
+			</actor>
+			<actor>
+				<name>Alice Lowe</name>
+			</actor>
+			<actor>
+				<name>Jenny Agutter</name>
+			</actor>
+		</actors>
+		<genre>Comedy</genre>
+		<date-of-playing>
+			<day>17</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>91 min</duration>
+	</movie>
+	<movie>
+		<title>Green Rush</title>
+		<actors>
+			<actor>
+				<name>Mike Foy</name>
+			</actor>
+			<actor>
+				<name>Paul Telfer</name>
+			</actor>
+			<actor>
+				<name>Kriss Dozal</name>
+			</actor>
+			<actor>
+				<name>Misha Crosby</name>
+			</actor>
+		</actors>
+		<genre>Thriller</genre>
+		<date-of-playing>
+			<day>17</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>89 min</duration>
+	</movie>
+	<movie>
+		<title>Abe</title>
+		<actors>
+			<actor>
+				<name>Dagmara Dominczyk</name>
+			</actor>
+			<actor>
+				<name>Mark Margolis</name>
+			</actor>
+			<actor>
+				<name>Noah Schnapp</name>
+			</actor>
+			<actor>
+				<name>Alexander Hodge</name>
+			</actor>
+		</actors>
+		<genre>Family</genre>
+		<date-of-playing>
+			<day>17</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>85 min</duration>
+	</movie>
+	<movie>
+		<title>Bad Trip</title>
+		<actors>
+			<actor>
+				<name>Eric Andre</name>
+			</actor>
+			<actor>
+				<name>Lil Rel Howery</name>
+			</actor>
+			<actor>
+				<name>Tiffany Haddish</name>
+			</actor>
+			<actor>
+				<name>Anthony J. James</name>
+			</actor>
+		</actors>
+		<genre>Comedy</genre>
+		<date-of-playing>
+			<day>24</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>84 min</duration>
+	</movie>
+	<movie>
+		<title>Shirley</title>
+		<actors>
+			<actor>
+				<name>Elisabeth Moss</name>
+			</actor>
+			<actor>
+				<name>Logan Lerman</name>
+			</actor>
+			<actor>
+				<name>Michael Stuhlbarg</name>
+			</actor>
+			<actor>
+				<name>Odessa Young</name>
+			</actor>
+		</actors>
+		<genre>Biography</genre>
+		<date-of-playing>
+			<day>24</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>107 min</duration>
+	</movie>
+	<movie>
+		<title>True History of the Kelly Gang</title>
+		<actors>
+			<actor>
+				<name>George MacKay</name>
+			</actor>
+			<actor>
+				<name>Essie Davis</name>
+			</actor>
+			<actor>
+				<name>Nicholas Hoult</name>
+			</actor>
+			<actor>
+				<name>Orlando Schwerdt</name>
+			</actor>
+		</actors>
+		<genre>Biography</genre>
+		<date-of-playing>
+			<day>24</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>124 min</duration>
+	</movie>
+	<movie>
+		<title>Fatima</title>
+		<actors>
+			<actor>
+				<name>Harvey Keitel</name>
+			</actor>
+			<actor>
+				<name>Joaquim de Almeida</name>
+			</actor>
+			<actor>
+				<name>Goran Visnjic</name>
+			</actor>
+			<actor>
+				<name>Sonia Braga</name>
+			</actor>
+		</actors>
+		<genre>Drama</genre>
+		<date-of-playing>
+			<day>24</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>113 min</duration>
+	</movie>
+	<movie>
+		<title>Le franc</title>
+		<actors>
+			<actor>
+				<name>Dieye Ma</name>
+			</actor>
+			<actor>
+				<name>Aminata Fall</name>
+			</actor>
+			<actor>
+				<name>Demba Ba</name>
+			</actor>
+			<actor>
+				<name>Lissa Balera</name>
+			</actor>
+		</actors>
+		<genre>Comedy</genre>
+		<date-of-playing>
+			<day>24</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>46 min</duration>
+	</movie>
+	<movie>
+		<title>The Little Girl Who Sold the Sun</title>
+		<actors>
+			<actor>
+				<name>Moussa Balde</name>
+			</actor>
+			<actor>
+				<name>Lissa Balera</name>
+			</actor>
+			<actor>
+				<name>Aminata Fall</name>
+			</actor>
+			<actor>
+				<name>Dieynaba Laam</name>
+			</actor>
+		</actors>
+		<genre>Drama</genre>
+		<date-of-playing>
+			<day>24</day>
+			<month>4</month>
+			<year>2020</year>
+		</date-of-playing>
+		<duration>45 min</duration>
+	</movie>
+</movies>
